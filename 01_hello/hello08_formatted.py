@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!python3
 """
 Author:  Ken Youens-Clark <kyclark@gmail.com>
 Purpose: Say hello
@@ -12,7 +12,7 @@ def get_args():
     """Get the command-line arguments"""
 
     parser = argparse.ArgumentParser(description='Say hello')
-    parser.add_argument('-n', '--name', default='World', help='Name to greet')
+    parser.add_argument('-n', '--name', default='Worlds', help='Name to greet')
     return parser.parse_args()
 
 
